@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    @font-face {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .clear {
+        clear: both;
+    }
+    body {
+        font-family: 'Pretendard';
+        font-size: 14px;
+        color: #444444;
+        background-color: #e4f5b9;
+    }
+    li {
+        list-style-type: none;
+    }
+    header {
+        width: 1140px;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    #logo {
+        float: left;
+        margin: 35px 0 0 20px;  
+    }
+    #menus {
+        float: right;
+    }
+    #top_menu {
+        text-align: right;
+        margin-top: 20px;
+        font-family: 'Pretendard';
+        color: #751485;
+    }
+    #main_menu {
+        margin-top: 20px;
+        font-family: 'Pretendard';
+        font-size: 20px;
+        color: #751485;
+    }
+    #main_menu li {
+        display: inline;
+        margin-left: 80px;
+    }
+    #main_img {
+        float: center;
+        margin: 0 auto;
+        padding: 110px 0 200px 170px;
+        width: 1140px;
+        height: 500px;
+        transition: all 0.2s linear;
+    }
+    #main_img:hover {
+        transform: scale(1.05);
+    }
+    #contents {
+        width: 1140px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    #sub_menu {
+        width: 234px;
+        float: left;
+    }
+    #main_contents {
+        width: 880px;
+        float: right;
+    }
+    footer {
+        width: 100%;
+        height: 70px;
+        padding-top: 20px;
+        color: white;
+        background-color: #96a17b;
+        text-align: center;
+        font-size: 12px;
+    }
+    a {
+        text-decoration: none;
+        color: #751485;
+        transition-property: transform;
+        display: inline-block;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    a:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 40px;
+        margin-left: 65px;
+        color: #751485;
+    }
+
+    p {
+        text-align: left;
+        font-size: 17px;
+        margin-left: 67px;
+        margin-bottom: 20px;
+        color: #751485;
+    }
+    button {
+        margin-left: 80px;
+        padding: 5px;
+    }
+    table {
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="./img/pcr.png" width="180px"></a>
+        </div>
+        <nav id="menus">
+        <div id="top_menu">
+            로그인 | 회원가입 | 공지사항
+        </div>
+        <ul id="main_menu">
+            <li><a href="b.html">키핑하씨유</a></li>
+            <li><a href="c.html">참여하씨유</a></li>
+            <li><a href="d.html">재고있씨유</a></li>
+            <li><a href="e.html">편픽하씨유</a></li>
+            <li><a href="f.html">임자있씨유</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <section id="main_img">
+        <table>
+            <td>
+                <img src="./img/pc2.png" width="500px">
+            </td>
+            <td>
+                <h3>함께하씨유!</h3> <br>
+                <p>CU를 더 가깝게, 더 편리하게! <br> 온라인으로 재고조회와 예약서비스, <br> 오프라인으로 포인트 적립 등 손쉬운 기능까지</p>
+                <p>지금 바로 다운로드 하세요!</p>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://play.google.com/store/apps/details?id=com.bgfcu.membership&hl=ko&gl=US"><img src="./img/ad.png" width="120px"></a>
+                &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://apps.apple.com/kr/app/%ED%8F%AC%EC%BC%93cu/id573144133"><img src="./img/ap.png" width="120px"></a>
+            </td>
+        </table>
+    </section>
+    <div class="clear"></div>
+    <footer>
+        NICE TO CU <br><br>
+        COPYRIGHT © Do Yeon Kim ALL RIGHT RESERVED.
+    </footer>
+
+    
+</body>
+</html>
